@@ -40,5 +40,7 @@ public class WorkoutService {
         return null;
     }
 
-
+    public void delete(String id) {
+        repo.deleteById(id);
+    }
 }
