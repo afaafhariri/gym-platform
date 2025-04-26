@@ -66,7 +66,7 @@ public class PostController {
 
         } catch (Exception e) {
             e.printStackTrace();
-            return ResponseEntity.internalServerError().build();
+            return ResponseEntity.status(500).body(null);
         }
     }
 }
