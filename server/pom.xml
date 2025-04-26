@@ -34,7 +34,7 @@
 			<dependency>
 				<groupId>software.amazon.awssdk</groupId>
 				<artifactId>bom</artifactId>
-				<version>2.25.12</version> <!-- Latest stable version -->
+				<version>2.25.12</version> <!-- Latest AWS SDK version as of April 2025 -->
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -83,10 +83,6 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>software.amazon.awssdk</groupId>
-		<artifactId>s3</artifactId>
-	</dependency>
 	</dependencies>
 
 	<build>
