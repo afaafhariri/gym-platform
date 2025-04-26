@@ -26,10 +26,10 @@ public class WorkoutController {
         return service.getById(id);
     }
 
-//    @PostMapping
-//    public Workout create(@RequestBody Workout workout) {
-//        return service.create(workout);
-//    }
+    @PostMapping
+    public Workout create(@RequestBody Workout workout) {
+        return service.create(workout);
+    }
 
     @PutMapping("/{id}")
     public Workout update(@PathVariable String id, @RequestBody Workout workout) {
