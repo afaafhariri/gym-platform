@@ -44,4 +44,13 @@ public class GcsService {
             e.printStackTrace();
         }
     }
+
+    public void deleteFile(String fileUrl) {
+        try {
+            String fileName = fileUrl.substring(fileUrl.lastIndexOf("/") + 1);
+            storage.delete(bucketName, "posts/" + fileName);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
