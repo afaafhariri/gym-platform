@@ -1,14 +1,10 @@
 package com.gymplatform.server.service;
 
-import com.google.auth.oauth2.ServiceAccountCredentials;
 import com.google.cloud.storage.BlobInfo;
 import com.google.cloud.storage.Storage;
-import com.google.cloud.storage.StorageOptions;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.UUID;
