@@ -13,7 +13,7 @@ import java.io.IOException;
 @Configuration
 public class GcsConfig {
 
-    @Value("${gcs.credentials.file}")
+    @Value("/Users/afaafhariri/Downloads/gymplatformoauth-7474d4b9bfbb.json")
     private String credentialsPath;
 
     @Bean
