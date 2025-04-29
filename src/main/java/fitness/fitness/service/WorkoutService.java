@@ -32,6 +32,7 @@ public class WorkoutService {
         if (workout != null) {
             workout.setTitle(workoutDetails.getTitle());
             workout.setDescription(workoutDetails.getDescription());
+            workout.setType(workoutDetails.getType());
             workout.setReps(workoutDetails.getReps());
             workout.setSets(workoutDetails.getSets());
             workout.setWeight(workoutDetails.getWeight());

@@ -12,6 +12,7 @@ public class Workout {
     private String id;
     private String title;
     private String description;
+    private String type;
     private int reps;
     private int sets;
     private double weight;
@@ -31,6 +32,9 @@ public class Workout {
 
     public String getDescription() { return description; }
     public void setDescription(String description) { this.description = description; }
+
+    public String getType() { return type; }                      // ✅ Getter
+    public void setType(String type) { this.type = type; }
 
     public int getReps() { return reps; }
     public void setReps(int reps) { this.reps = reps; }
